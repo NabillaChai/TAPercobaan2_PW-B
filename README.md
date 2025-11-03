@@ -6,20 +6,21 @@ Proyek ini merupakan bagian dari tugas mata kuliah Praktikum Pemrograman Web di 
 
 ## Biodata
 
-Nama: Nabilla Chairunisa
-NPM: 2315061022
-Universitas: Universitas Lampung
-Program Studi: Teknik Informatika
-Minat/Konsentrasi: Web Development dan UI/UX Design
+**Nama:** Nabilla Chairunisa  
+**NPM:** 2315061022  
+**Universitas:** Universitas Lampung  
+**Program Studi:** Teknik Informatika  
+**Konsentrasi:** Rekayasa Perangkat Lunak (RPL)
 
 ## Struktur Folder
-
+```plaintext
 TAPercobaan2_PW-B/
 │
 ├── index.html       → Halaman utama website portfolio
 ├── style.css        → File stylesheet untuk tampilan visual
 ├── photo.jpg        → Foto profil yang ditampilkan di halaman utama
 └── README.md        → Dokumentasi proyek
+```
 
 ## Fitur Website
 
