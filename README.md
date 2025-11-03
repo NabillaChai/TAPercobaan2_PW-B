@@ -33,6 +33,7 @@ TAPercobaan2_PW-B/
 
 # Instalasi dan Pengelolaan Proyek dengan Git
 **1. Konfigurasi awal Git**
+
 Sebelum menggunakan Git untuk melakukan commit, dilakukan konfigurasi identitas pengguna agar setiap perubahan yang dikirimkan ke repositori memiliki informasi pembuatnya.
 
 ```plaintext
@@ -48,6 +49,7 @@ diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 ```
+
 **2. Membuat Folder dan Inisialisasi Repository** 
 ```plaintext
 mkdir TAPercobaan2_PW-B
