@@ -126,7 +126,8 @@ git push origin main
 Semua perubahan (termasuk file HTML, CSS, gambar, dan dokumentasi) diunggah ke branch main di repository GitHub.
  
 
-
+# Menampilkan Visualisasi Riwayat Commit
+<img width="820" height="225" alt="image" src="https://github.com/user-attachments/assets/75c1cdf9-6e3f-4c17-afb7-cec7a0d9aa45" />
 
 
 
