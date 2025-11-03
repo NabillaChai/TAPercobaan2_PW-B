@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #E5E9C5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header, main, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #016B61;
+}
+
+h2 {
+    color: #016B61;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
