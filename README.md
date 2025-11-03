@@ -32,7 +32,7 @@ TAPercobaan2_PW-B/
 - **Footer:** Berisi hak cipta tahun 2025 atas nama pengembang.
 
 # Instalasi dan Pengelolaan Proyek dengan Git
-1. **Konfigurasi awal Git**
+**1. Konfigurasi awal Git**
 Sebelum menggunakan Git untuk melakukan commit, dilakukan konfigurasi identitas pengguna agar setiap perubahan yang dikirimkan ke repositori memiliki informasi pembuatnya.
 
 ```plaintext
@@ -48,7 +48,7 @@ diff.astextplain.textconv=astextplain
 filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 ```
-2. **Membuat Folder dan Inisialisasi Repository** 
+**2. Membuat Folder dan Inisialisasi Repository** 
 ```plaintext
 mkdir TAPercobaan2_PW-B
 cd TAPercobaan2_PW-B
@@ -57,21 +57,21 @@ git init
 Langkah ini membuat folder proyek baru bernama TAPercobaan2_PW-B dan menginisialisasi Git di dalamnya.
 Setelah menjalankan git init, terbentuk folder .git/ yang menyimpan seluruh riwayat versi proyek.
 
-3. **Menambahkan File Pertama dan Commit Awal**
+**3. Menambahkan File Pertama dan Commit Awal**
 ```plaintext
 git add index.html
 git commit -m "buat struktur dasar halaman portfolio"
 ```
 Tahap ini menambahkan file pertama (index.html) yang berisi struktur awal website portfolio, kemudian disimpan sebagai commit pertama dalam riwayat Git.
 
-4. **Membuat dan Menyimpan Styling**
+**4. Membuat dan Menyimpan Styling**
 ```plaintext
 git add .
 git commit -m "tambahkan styling utama dan animasi untuk portfolio"
 ```
 Menambahkan file style.css untuk memberikan tampilan visual dan efek animasi pada website. Commit kedua mencatat perubahan tersebut ke dalam repository lokal.
  
-5. **Menghubungkan ke Repository GitHub**
+**5. Menghubungkan ke Repository GitHub**
 ```plaintext
 git remote add origin https://github.com/NabillaChai/TAPercobaan2_PW-B
 git branch -m main
@@ -80,13 +80,13 @@ git push -u origin main
 Langkah ini menghubungkan repository lokal ke repository GitHub dengan alamat tersebut.Branch default awalnya bernama master, kemudian diganti menjadi main agar sesuai standar GitHub modern.
 Perintah git push -u origin main mengunggah seluruh commit dari lokal ke GitHub.
 
-6. **Membuat Branch Baru untuk Pengembangan Konten**
+**6. Membuat Branch Baru untuk Pengembangan Konten**
 ```plaintext
 git checkout -b feature/content-update
 ```
 Branch baru bernama feature/content-update dibuat untuk menambahkan konten utama website seperti proyek, pendidikan, dan keahlian tanpa mengganggu branch utama (main).
 
-7. **Menambahkan dan Menggabungkan Konten**
+**7. Menambahkan dan Menggabungkan Konten**
 ```plaintext
 git add .
 git commit -m "isi konten portfolio dengan project, pendidikan, dan keahlian"
@@ -97,20 +97,20 @@ Menambahkan seluruh pembaruan menggunakan git add . agar semua file yang diubah 
 Melakukan commit dengan pesan deskriptif untuk menyimpan perubahan tersebut.
 Berpindah kembali ke branch utama (main) dan menggabungkan hasilnya dengan git merge, sehingga semua pembaruan dari branch fitur menjadi bagian dari versi utama proyek.
 
-8. **Menghapus Branch yang Sudah Digabungkan**
+**8. Menghapus Branch yang Sudah Digabungkan**
 ```plaintext
 git branch -d feature/content-update
 ```
 Setelah proses penggabungan berhasil dan tidak ada konflik, branch feature/content-update dihapus karena seluruh perubahannya sudah menjadi bagian dari branch utama (main).
 
-9. **Menambahkan Foto Profil**
+**9. Menambahkan Foto Profil**
 ```plaintext
 git add photo.jpg
 git commit -m "menambahkan foto profil"
 ```
 Menambahkan file gambar (photo.jpg) yang digunakan sebagai foto profil di halaman utama.
 
-10. **Membuat dan Mengisi README.md**
+**10. Membuat dan Mengisi README.md**
 ```plaintext
 touch README.md
 git add README.md
@@ -119,7 +119,7 @@ git commit -m "langkah-langkah instalasi dan penggunaan"
 ```
 File README.md dibuat sebagai dokumentasi proyek. Isinya menjelaskan deskripsi website portfolio, struktur folder, dan tujuan pembuatannya.
 
-11. **Mengunggah Seluruh Perubahan ke GitHub**
+**11. Mengunggah Seluruh Perubahan ke GitHub**
 ```plaintext
 git push origin main
 ```
